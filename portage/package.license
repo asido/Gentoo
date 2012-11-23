@@ -1,0 +1,22 @@
+#required by google-chrome (argument)
+>=www-client/google-chrome-21.0.1180.55_beta148257:beta google-chrome
+#required by app-emulation/virtualbox-4.1.18-r1[additions], required by app-emulation/virtualbox-extpack-oracle-4.1.18
+>=app-emulation/virtualbox-additions-4.1.18 PUEL
+#required by app-emulation/virtualbox-4.1.18-r1[extensions], required by virtualbox (argument)
+>=app-emulation/virtualbox-extpack-oracle-4.1.18 PUEL
+#required by adobe-flash (argument)
+>=www-plugins/adobe-flash-11.2.202.236 AdobeFlash-10.3
+#required by skype (argument)
+>=net-im/skype-4.0.0.8 skype-4.0.0.7-copyright
+#required by icc (argument)
+>=dev-lang/icc-11.1.072-r1 Intel-SDP
+#required by virtual/jre-1.7.0, required by dev-java/java-config-2.1.12
+>=dev-java/oracle-jre-bin-1.7.0.5-r2 Oracle-BCLA-JavaSE
+#required by oracle-jdk-bin (argument)
+>=dev-java/oracle-jdk-bin-1.7.0.7 Oracle-BCLA-JavaSE
+#required by =sci-electronics/eagle-6.2.0 (argument)
+=sci-electronics/eagle-6.2.0 cadsoft
+#required by =sci-electronics/eagle-6.2.1_beta (argument)
+>=sci-electronics/eagle-6.2.1_beta cadsoft
+#required by eagle (argument)
+=sci-electronics/eagle-5.11.0 cadsoft

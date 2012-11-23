@@ -1,0 +1,8 @@
+=app-text/mupdf-9999
+=dev-lang/lua-5.2.1
+=x11-wm/awesome-9999
+#required by =sci-electronics/eagle-6.2.1_beta (argument)
+# /usr/portage/profiles/package.mask:
+# Michael Weber <xmw@gentoo.org> (07 Jul 2012)
+# Masked for testing only beta (bug 424866)
+=sci-electronics/eagle-6.2.1_beta

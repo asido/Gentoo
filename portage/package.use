@@ -1,0 +1,31 @@
+app-editors/gvim cscope perl python ruby
+app-emulation/virtualbox qt4 extensions
+app-emulation/vmware-tools vmware_guest_freebsd vmware_guest_linux vmware_guest_windows
+app-emulation/vmware-workstation vmware-tools
+app-office/libreoffice gtk
+app-text/highlight qt4
+dev-lang/php apache2 curl fpm gd mysql zip
+dev-lang/python sqlite tk
+dev-vcs/git gtk tk
+media-libs/mesa -xorg
+media-sound/ncmpcpp visualizer
+net-analyzer/ettercap gtk
+net-analyzer/wireshark gtk
+net-ftp/pure-ftpd mysql
+net-irc/weechat perl python
+www-apps/wordpress vhosts
+www-plugins/gnash gtk
+x11-base/xorg-server kdrive
+x11-libs/libdrm libkms
+x11-libs/qt-gui gtkstyle
+x11-terms/rxvt-unicode 256-color
+#required by www-client/chromium-21.0.1180.49, required by chromium (argument)
+>=dev-libs/libxml2-2.8.0-r1 icu
+#required by net-analyzer/nmap-6.01, required by nmap (argument)
+>=net-libs/libpcap-1.3.0 ipv6
+#required by x11-terms/terminator-0.96-r1, required by terminator (argument)
+>=dev-libs/keybinder-0.3.0-r200:0 python
+#required by x11-terms/terminator-0.96-r1, required by terminator (argument)
+>=x11-libs/vte-0.28.2-r203:0 python
+#required by dev-util/monodevelop-3.0.2-r1, required by monodevelop (argument)
+>=dev-dotnet/mono-addins-0.6.2 gtk
